@@ -9,6 +9,7 @@ public class Movement : NetworkBehaviour
     public float dashDuration = 0.3f;
     public float dashCooldown = 0.1f;
     public Collider2D playerCollider;
+    public GameObject playerCamera;
 
     private float moveSpeed = 10f;
     private Rigidbody2D rb;
@@ -16,21 +17,14 @@ public class Movement : NetworkBehaviour
     private Animator animator;
     private Vector2 facing = Vector2.right;
     private const float inputEpsilon = 0.01f;
-    public Camera Camera;
 
     public override void OnNetworkSpawn()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        Camera = GetComponentInChildren<Camera>(true);
         var playerInput = GetComponent<PlayerInput>();
         if (playerInput != null) playerInput.enabled = IsOwner;
-        if (Camera != null)
-        {
-            Camera.enabled = IsOwner;
-            var listener = Camera.GetComponent<AudioListener>();
-            if (listener != null) listener.enabled = IsOwner;
-        }
+        if (playerCamera != null) playerCamera.SetActive(IsOwner);
     }
 
     

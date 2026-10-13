@@ -14,7 +14,10 @@ public class ConnectUI : MonoBehaviour
     public Button connectButton;
     public GameObject joinMenu;
     public TMP_InputField joinCodeInput;  
-    public TMP_Text joinCodeLabel;         
+    public TMP_Text joinCodeLabel;
+    public GameObject errorText1;
+    public GameObject errorText2;
+    public GameObject errorText3;
 
     private const int MaxConnections = 4;  
 
@@ -110,6 +113,7 @@ public class ConnectUI : MonoBehaviour
         catch (Exception e)
         {
             Debug.Log($"Failed{e}");
+
         }
     }
 
