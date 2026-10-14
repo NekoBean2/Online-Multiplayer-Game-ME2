@@ -18,6 +18,7 @@ public class ConnectUI : MonoBehaviour
     public GameObject errorText1;
     public GameObject errorText2;
     public GameObject errorText3;
+    public GameObject chatBox;
 
     private const int MaxConnections = 4;  
 
@@ -25,7 +26,7 @@ public class ConnectUI : MonoBehaviour
     {
         if (joinMenu == null)
             joinMenu = GameObject.Find("JoinMenu");
-
+        chatBox.gameObject.SetActive(false);
         joinCodeLabel.gameObject.SetActive(false);
         hostButton.interactable = false;
         connectButton.interactable = false;
@@ -77,6 +78,7 @@ public class ConnectUI : MonoBehaviour
 
             joinCodeLabel.text = $"Join code: {joinCode}";
             joinCodeLabel.gameObject.SetActive(true);
+            chatBox.gameObject.SetActive(true);
             joinMenu.SetActive(false);
         }
         catch (Exception e)
@@ -108,6 +110,7 @@ public class ConnectUI : MonoBehaviour
             );
 
             NetworkManager.Singleton.StartClient();
+            chatBox.gameObject.SetActive(true);
             joinMenu.SetActive(false);
         }
         catch (Exception e)
@@ -120,6 +123,7 @@ public class ConnectUI : MonoBehaviour
     private void OnDisconnected(ulong clientId)
     {
         if (!NetworkManager.Singleton.IsHost)
-            joinMenu.SetActive(true);
+            chatBox.gameObject.SetActive(false);
+        joinMenu.SetActive(true);
     }
 }

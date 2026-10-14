@@ -2,13 +2,18 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
+<<<<<<< HEAD
+  tags:
+  - Zombie
+=======
   tags: []
+>>>>>>> 3e7e2b8576d23d4e104b66fb27d565a6a8ef61bd
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Zombie
   - Water
   - UI
   - 
@@ -41,3 +46,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
+=======
+  - name: Ground
+    uniqueID: 113179515
+    locked: 0
+  - name: Ground Extra
+    uniqueID: 343433603
+    locked: 0
+  - name: Inside Walls
+    uniqueID: 3723118893
+    locked: 0
+  - name: Outside walls
+    uniqueID: 4101316951
+    locked: 0
+>>>>>>> 3e7e2b8576d23d4e104b66fb27d565a6a8ef61bd
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
