@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+  tags:
+  - Zombie
   tags: []
+>>>>>>> 3e7e2b8576d23d4e104b66fb27d565a6a8ef61bd
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Zombie
   - Water
   - UI
   - 
@@ -53,6 +56,7 @@ TagManager:
   - name: Outside walls
     uniqueID: 4101316951
     locked: 0
+>>>>>>> 8553230e89dde3e3330ce890a1888f731c5c8b7d
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []
