@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7f4e8b202ce583e46817f33eef21f6d5
+guid: 41e95c79e9083af4c9c812981e94f451
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6937817954938267909
-    second: 2_0
+      213: -257694390798387597
+    second: Wall Side Reinforced_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_0
+      name: Wall Side Reinforced_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 20
         y: 0
-        width: 128
+        width: 24
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5092c600ca4184060800000000000000
-      internalID: 6937817954938267909
+      spriteID: 376f9df115c7c6cf0800000000000000
+      internalID: -257694390798387597
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      2_0: 6937817954938267909
+      Wall Side Reinforced_0: -257694390798387597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4bcbf639459d6ce41b61d8ae3c399516
+guid: 8ab54eb804ad9d449826a10a7c17c123
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6479238957050404556
-    second: Wall Left_0
+      213: 4887500075601753106
+    second: DropBullets_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wall Left_0
+      name: DropBullets_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 192
-      alignment: 9
-      pivot: {x: 0.5, y: 0.088541664}
+        x: 2
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cce9cd1c081eae950800000000000000
-      internalID: 6479238957050404556
+      spriteID: 214ffe57c63e3d340800000000000000
+      internalID: 4887500075601753106
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d0733b7c843152444bc39521a757e969
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wall Left_0: 6479238957050404556
+      DropBullets_0: 4887500075601753106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
