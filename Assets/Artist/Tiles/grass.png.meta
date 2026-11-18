@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bdb823cd7b65f62479c5ffe824271da0
+guid: d5cf33a6c91ecf74f8e896a459c85d6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7613498155011891847
-    second: Floor1_0
+      213: 7932798033344189819
+    second: grass_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floor1_0
+      name: grass_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97d9c6c14cb675690800000000000000
-      internalID: -7613498155011891847
+      spriteID: b75d56418c5f61e60800000000000000
+      internalID: 7932798033344189819
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Floor1_0: -7613498155011891847
+      grass_0: 7932798033344189819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
